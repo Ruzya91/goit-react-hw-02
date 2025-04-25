@@ -1,0 +1,8 @@
+.options {
+  margin-top: 40px;
+}
+.button {
+  border-radius: 10px;
+  margin-right: 20px;
+  text-transform: capitalize;
+}
