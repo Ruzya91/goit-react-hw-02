@@ -3,6 +3,7 @@ import '../components/App.css';
 import Feedback from '../components/Feedback/Feedback';
 import Options from '../components/Options/Options';
 import Notification from '../components/Notification/Notification';
+import Description from '../components/Description/Description';
 
 const STORAGE_KEY = 'feedbackCounts';
 
@@ -32,11 +33,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Sip Happens Café</h1>
-      <p>
-        Please leave your feedback about our service by selecting one of the
-        options below.
-      </p>
+      <Description />
 
       <Options
         options={Object.keys(feedback)}
